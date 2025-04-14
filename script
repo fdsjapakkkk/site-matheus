@@ -1,0 +1,8 @@
+<script>
+  function ajustarFonte(delta) {
+    const descricao = document.getElementById('descricao');
+    const estilo = window.getComputedStyle(descricao);
+    const tamanhoAtual = parseFloat(estilo.fontSize);
+    descricao.style.fontSize = (tamanhoAtual + delta) + 'px';
+  }
+</script>
