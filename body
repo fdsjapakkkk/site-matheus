@@ -1,0 +1,8 @@
+<body>
+  <div class="container">
+    <img src="https://via.placeholder.com/600x400" alt="Imagem de exemplo">
+    <p class="descricao" id="descricao">Esta é uma descrição da imagem. Ela explica o conteúdo visual apresentado acima.</p>
+    <button onclick="ajustarFonte(2)">Aumentar Fonte</button>
+    <button onclick="ajustarFonte(-2)">Diminuir Fonte</button>
+  </div>
+</body>
